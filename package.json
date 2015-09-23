@@ -1,11 +1,11 @@
 {
   "name": "node-site-scraper",
-  "version": "0.0.1",
-  "description": "Scrape the entire TransIP website looking for the word pebble",
+  "version": "0.0.2",
+  "description": "Scrape parts of the Paylogic website looking for the word qlimax",
   "main": "app.js",
   "dependencies": {
-    "cheerio": "~0.13.1",
-    "request": "~2.34.0"
+    "bluebird": "^2.10.1",
+    "request-promise": "^0.4.3"
   },
   "devDependencies": {},
   "scripts": {
